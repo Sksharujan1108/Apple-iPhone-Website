@@ -3,8 +3,11 @@ import Navbar from './component/navbar';
 import Hero from './component/hero';
 import Highlights from './component/highlights';
 import Model from './component/model';
+import Features from './component/features';
+import HowItWork from './component/howItWork';
 
 import * as Sentry from "@sentry/react";
+import Footer from './component/footer';
 
 const App = () => {
 
@@ -12,10 +15,13 @@ const App = () => {
 
   return (
     <main className='bg-black'>
-      <Navbar/>
-      <Hero/>
+      <Navbar />
+      <Hero />
       <Highlights/>
       <Model />
+      <Features />
+      <HowItWork />
+      <Footer />
     </main>
   )
 }
